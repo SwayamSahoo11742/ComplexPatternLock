@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import numpy as np
 
-def draw_lines_animation(points, xlim=None, ylim=None, num_frames=100, interval=50):
+def draw_pattern_animation(points, xlim=None, ylim=None, num_frames=100, interval=50):
     plt.rcParams['toolbar'] = 'None'
 
     fig, ax = plt.subplots()

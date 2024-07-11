@@ -1,6 +1,6 @@
 import math
 import random 
-from animate import draw_lines_animation
+from animate import draw_pattern_animation
 coords = [(0,2), (1,2), (2,2), (0,1), (1,1), (2,1), (0,0), (1,0), (2,0)]
 
 def get_all_sols(grid_size: (int, int), max_len: int) -> list:
@@ -70,4 +70,4 @@ for pat in pats:
 
 rand_pat = conv(random.choice(complex))
 
-draw_lines_animation(rand_pat, xlim=(3,-1), ylim=(3,-1), num_frames=50, interval=50)
+draw_pattern_animation(rand_pat, xlim=(3,-1), ylim=(3,-1), num_frames=50, interval=50)
