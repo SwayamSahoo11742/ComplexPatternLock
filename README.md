@@ -3,9 +3,11 @@
 ### Defining a Pattern
 ***
 For the ease of communication, we will number the points of a pattern as such:
+<br>
 <img src="img/numbering.png" alt="drawing" style="width:200px;"/>
 
 We define a pattern as a list of numbers, where you connect the points in order. For example, a pattern of [1, 8, 3, 5] would result in this pattern:
+<br>
 <img src="img/example.png" alt="drawing" style="width:200px;"/>
 
 There are a few constraints on patterns:
@@ -42,20 +44,10 @@ The lines are named by their slopes, except the vertical line, whose slope is un
 The complexity of a pattern is determined by the points and the lines. It is the sum of the number of unique points used and unique slopes used. with 9 points and 8 line types, this adds up to 17 being our max complexity. Keeping in mind that a minimum of 4 points need to be used for a pattern gives us 6 as our lowest possible complextity score (4 points, 2 line types).
 
 ##### Examples:
-<div style="display: flex; justify-content: space-around;">
-  <div style="text-align: center;">
-    <p>17 score pattern (max)</p>
-    <img src="img/max.png" width="200" height="200"/>
-  </div>
-  <div style="text-align: center;">
-    <p>6 score pattern (min)</p>
-    <img src="img/min.png" width="200" height="200"/> 
-  </div>
-  <div style="text-align: center;">
-    <p>11 score pattern</p>
-    <img src="img/avg.png" width="200" height="200"/>
-  </div>
-</div>
+
+| 17 score pattern (max) | 6 score pattern (min) | 11 score pattern |
+| --- | --- | --- |
+|<img src="img/max.png" width="200" height="200"/>|<img src="img/min.png" width="200" height="200"/> | <img src="img/avg.png" width="200" height="200"/>|
 
 <br>
 <br>
