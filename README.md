@@ -17,8 +17,11 @@ There are a few constraints on patterns:
 
 ##### Examples of invalid patterns:
 [1, 2, 5]: Pattern is too short
+
 [1, 2, 7, 4, 1]: Pattern cannot use the same point twice
+
 [4, 1, 3, 5, 6]: Line between 1 and 3 cannot be direct with 2 being unused
+
 - It would be valid if 2 was used before the line between 1 and 3, such as this [4, 2, 1, 3, 5, 6]
 
 <br>
